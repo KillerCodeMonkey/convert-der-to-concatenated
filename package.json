@@ -5,7 +5,6 @@
       "name": "Bengt Weiße",
       "email": "bengtler@gmail.com"
     },
-    "private": "true",
     "license": "MIT",
     "scripts": {
       "lint": "eslint .",
