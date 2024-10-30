@@ -27,5 +27,6 @@
     "description": "Converts ECDSA ANS1 DER to concatenated R|S representation",
     "volta": {
       "node": "22.11.0"
-    }
+    },
+    "keywords": ["ECDSA", "ASN1", "DER", "der", "asn1", "Asn1", "concatenated", "r,s", "R|S"]
 }
