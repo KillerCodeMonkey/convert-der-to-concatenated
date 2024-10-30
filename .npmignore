@@ -1,0 +1,8 @@
+.vscode
+node_modules
+.editorconfig
+.gitignore
+eslint.config.mjs
+index.ts
+.package-lock.json
+tsconfig.json

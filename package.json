@@ -1,0 +1,32 @@
+{
+    "name": "convert-der-to-concatenated",
+    "version": "0.1.0",
+    "author": {
+      "name": "Bengt Weiße",
+      "email": "bengtler@gmail.com"
+    },
+    "private": "true",
+    "license": "MIT",
+    "scripts": {
+      "lint": "eslint .",
+      "build": "ncc build index.ts -o dist"
+    },
+    "main": "dist/index.js",
+    "devDependencies": {
+      "@eslint/js": "^9.13.0",
+      "@eslint/json": "^0.5.0",
+      "@stylistic/eslint-plugin": "^2.9.0",
+      "@types/node": "^22",
+      "@vercel/ncc": "^0.38.2",
+      "eslint": "^9.13.0",
+      "typescript": "~5.5.0",
+      "typescript-eslint": "^8.10.0"
+    },
+    "engines": {
+      "node": "22.11.0"
+    },
+    "description": "Converts ECDSA ANS1 DER to concatenated R|S representation",
+    "volta": {
+      "node": "22.11.0"
+    }
+}
